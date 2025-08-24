@@ -13,7 +13,7 @@ A personal portfolio website built with Python Flask that showcases GitHub proje
 ---
 
 ## Repo Structure
-`
+```
 portofolio-website/
 ├── app.py
 ├── requirements.txt
@@ -33,7 +33,7 @@ portofolio-website/
     ├── projects.html
     ├── about.html
     └── contact.html
-`
+```
 
 ---
 
