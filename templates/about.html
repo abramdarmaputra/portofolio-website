@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Python Developer & Problem Solver</h3>
+                <p>Hello! I'm a software developer with experience specializing in Python development. I have a passion for creating efficient, scalable, and user-friendly applications.</p>
+                <p>My journey in programming started during my university studies, and since then I've worked on various projects ranging from web applications to data analysis tools and automation scripts.</p>
+                
+                <div class="skills">
+                    <h4>Skills</h4>
+                    <div class="skills-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="About Me">
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

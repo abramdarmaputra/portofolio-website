@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <h1>Halo, Saya <span class="highlight">Abram Darmaputra</span></h1>
+        <p>Seorang Developer Python yang passionate dalam membangun solusi digital</p>
+        <div class="hero-buttons">
+            <a href="{{ url_for('projects') }}" class="btn btn-primary">Lihat Proyek</a>
+            <a href="{{ url_for('contact') }}" class="btn btn-secondary">Hubungi Saya</a>
+        </div>
+    </div>
+    <div class="hero-image">
+        <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="Profile Picture">
+    </div>
+</section>
+{% endblock %}
