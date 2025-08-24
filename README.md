@@ -1,4 +1,4 @@
-# Portfolio Website
+# Portofolio Website
 
 A personal portfolio website built with Python Flask that showcases GitHub projects.
 
@@ -9,6 +9,31 @@ A personal portfolio website built with Python Flask that showcases GitHub proje
 - About section with skills
 - Contact form
 - Integration with GitHub API
+
+---
+
+## Repo Structure
+`
+portofolio-website/
+├── app.py
+├── requirements.txt
+├── .gitignore
+├── config.py
+├── README.md
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   └── images/
+│       ├── ..
+└── templates/
+    ├── base.html
+    ├── index.html
+    ├── projects.html
+    ├── about.html
+    └── contact.html
+`
 
 ---
 
